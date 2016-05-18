@@ -1,0 +1,11 @@
+<h2 class="shop-header">Shopping Cart</h2>
+
+<div class="cart-item" ng-repeat="item in cartItems">
+	<img class="cart-image" ng-src="{{item.picture}}">
+	<p class="cart-title">{{item.title}}</p>
+	<p class="cart-price">${{item.price}}.00</p>
+	<p class="remove" ng-click="removeFromCart(item)">X</p>
+</div>
+<div class="total">
+ <h3>Total: ${{getTotal()}}.00</h3>
+</div>

@@ -1,0 +1,13 @@
+.image-canvas {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+	.image-canvas img {
+		border: black solid 2px;
+	}
+
+.portfolio-intro, .art-styles, .gallery-page-divider {
+	display: none;
+}

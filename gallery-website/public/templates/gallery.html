@@ -1,0 +1,13 @@
+<ui-view></ui-view>
+
+
+<p class="portfolio-intro">General Portfolio</p>
+
+
+<div class="gallery-container">
+
+	<div class="gallery-piece" ng-repeat="item in gallItems">
+		<img ui-sref=".{{item.title}}" ng-src="{{item.picture}}">
+	</div>
+
+</div>

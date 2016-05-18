@@ -1,0 +1,15 @@
+.about-image-container {
+	text-align: center;
+}
+
+.about-image-1 {
+	width: 420px;
+	border: black solid 1px;
+}
+
+.about-paragraph-1 {
+	text-align: justify;
+	font-size: 23px;
+	text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+	font-weight: bold;
+}

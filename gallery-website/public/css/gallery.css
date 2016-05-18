@@ -1,0 +1,48 @@
+.portfolio-intro {
+	text-align: center;
+	font-size: 24px;
+	color: #AB0743;
+}
+
+.gallery-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.gallery-piece {
+	width: 125px;
+	height: 125px;
+	border: black 2px solid;
+	margin-bottom: 20px;
+	margin-left: 17px;
+	overflow: hidden;	
+}
+
+	.gallery-piece img {
+		width: 125px;
+	}
+
+
+.gallery-page-divider {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #ddd;
+}
+
+.art-styles {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: #AB0743;
+	font-size: 20px;
+}
+
+	.traditional-header {
+	
+	}
+	
+	.digital-header {
+		margin-left: 365px;
+	}

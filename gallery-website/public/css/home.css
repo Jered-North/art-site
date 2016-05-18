@@ -1,0 +1,34 @@
+.home-image-1 {
+	width: 340px;
+	margin-bottom: 40px;
+	float: left;
+	border: solid 2px black;
+}
+
+.home-paragraph-1 {
+	width: 400px;
+	float: right;
+	font-size: 23px;
+	line-height: 28px;
+	text-align: justify;
+	text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+	font-weight: bold;
+}
+
+.home-image-2 {
+	width: 340px;
+	margin-bottom: 20px;
+	float: right;
+	clear: both;
+	border: solid 2px black;
+}
+
+.home-paragraph-2 {
+	width: 400px;
+	float: left;
+	font-size: 23px;
+	line-height: 28px;
+	text-align: justify;
+	text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+	font-weight: bold;
+}

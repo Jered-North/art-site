@@ -1,0 +1,30 @@
+.shop-header {
+	color: #AB0743;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.cart-item {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 145px;
+	font-size: 21px;
+}
+
+	.cart-image {
+		height: 200px;
+		border: black solid 2px;
+	}
+
+.remove {
+	cursor: pointer;
+}
+
+
+.total {
+	float: right;
+}

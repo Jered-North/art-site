@@ -1,0 +1,11 @@
+<div class="product-container">
+
+	<div class="product-card" ng-repeat="product in products">
+		<div class="product-image">
+			<img ng-src="{{product.picture}}">
+		</div>
+		<p class="product-p">{{product.title}}</p>
+		<p class="product-p">price: ${{product.price}}.00</p>
+			<button id="super" ng-click="addToCart(product)">Add to Cart</button>
+	</div>
+</div>
