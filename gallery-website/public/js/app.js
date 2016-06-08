@@ -89,4 +89,35 @@ angular.module("artApp", ["ui.router"])
 				url:"/chiraren",
 				templateUrl: "templates/gallery-views/chiraren.html"
 			})
+
+			.state('gallery.rain-belikov', {
+				url:"/rain-belikov",
+				templateUrl: "templates/gallery-views/rain-belikov.html"
+			})
+
+			.state('gallery.showtime', {
+				url:"/showtime",
+				templateUrl: "templates/gallery-views/showtime.html"
+			})
+
+			.state('gallery.lady-in-an-art-gallery', {
+				url:"/lady-in-an-art-gallery",
+				templateUrl: "templates/gallery-views/lady-in-an-art-gallery.html"
+			})
+
+			.state('gallery.daughter-of-the-stars', {
+				url:"/daughter-of-the-stars",
+				templateUrl: "templates/gallery-views/daughter-of-the-stars.html"
+			})
+
+			.state('gallery.siwang', {
+				url:"/siwang",
+				templateUrl: "templates/gallery-views/siwang.html"
+			})
+
+			.state('gallery.little-red-copperhead', {
+				url:"/little-red-copperhead",
+				templateUrl: "templates/gallery-views/little-red-copperhead.html"
+			})
+
 	});

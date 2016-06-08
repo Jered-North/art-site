@@ -6,14 +6,29 @@
 }
 
 .home-paragraph-1 {
+	letter-spacing: 1px;
+	color: #672D4F;
 	width: 400px;
 	float: right;
 	font-size: 23px;
 	line-height: 28px;
 	text-align: justify;
-	text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 	font-weight: bold;
 }
+
+.home-button {
+	width: 200px;
+	float: right;
+	font-size: 23px;
+	margin-right: 105px;
+	background-color: #901234;
+	border: none;
+	border-radius: 20px;
+}
+
+	.home-button a {
+		color: white;
+	}
 
 .home-image-2 {
 	width: 340px;
@@ -24,11 +39,12 @@
 }
 
 .home-paragraph-2 {
+	letter-spacing: 1px;
+	color: #672D4F;
 	width: 400px;
 	float: left;
-	font-size: 23px;
+	font-size: 22px;
 	line-height: 28px;
 	text-align: justify;
-	text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 	font-weight: bold;
 }

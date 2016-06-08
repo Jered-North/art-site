@@ -1,5 +1,6 @@
 .shop-header {
 	color: #AB0743;
+	font-size: 24px;
 	text-decoration: underline;
 	text-align: center;
 }
@@ -13,6 +14,7 @@
 	justify-content: space-between;
 	line-height: 145px;
 	font-size: 21px;
+		color: #AB0743;
 }
 
 	.cart-image {

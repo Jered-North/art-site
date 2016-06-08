@@ -1,3 +1,9 @@
+.image-title {
+	font-size: 25px;
+	text-align: center;
+	color: #AB0743;
+}
+
 .image-canvas {
 	width: 100%;
 	margin-bottom: 20px;
@@ -10,4 +16,13 @@
 
 .portfolio-intro, .art-styles, .gallery-page-divider {
 	display: none;
+}
+
+.description {
+	letter-spacing: 1px;
+	color: #672D4F;
+	font-size: 23px;
+	line-height: 28px;
+	text-align: justify;
+	font-weight: bold;
 }
