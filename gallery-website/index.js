@@ -4,8 +4,8 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var nodemailer = require('nodemailer');
 
-
-var config = require("./config.json");
+// var secret = require("./secret.json");
+var config = require("./config.js");
 var productCtrl = require("./back-end/controllers/productController.js");
 var cartCtrl = require("./back-end/controllers/cartController.js");
 var galleryCtrl = require("./back-end/controllers/galleryController.js");
@@ -15,7 +15,7 @@ var app = express();
 app.use(bodyParser.json());
 
 app.use(session({
-	secret: config.sessionSecret,
+	secret: "not really the secret",
 	saveUninitialized: true,
 	resave: true
 }));
@@ -46,12 +46,13 @@ app.post('/cart', cartCtrl.Create);
 app.delete('/cart', cartCtrl.Delete);
 
 
-mongoose.connect('mongodb://localhost:27017/art-app');
+mongoose.connect('mongodb://Jered:Database2016@ds025772.mlab.com:25772/herokuartsite');
 mongoose.connection.once('open', function() {
 	console.log('Connected to mongodb\n');
 });
 
 
-app.listen(8080, function() {
-	console.log('party has started on port 8080');
+var port = config.PORT;
+app.listen(port, function() {
+	console.log('party has started on port ' + port);
 })
